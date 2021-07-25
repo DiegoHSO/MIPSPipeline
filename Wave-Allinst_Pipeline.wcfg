@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/diego/OneDrive/Documentos/LABORG/Files_MIPS-MC_SingleEdge/CPU_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="aux_functions" />
+            <top_module name="cpu_tb" />
+            <top_module name="p_mips_pipeline" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_signed" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="textio" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="73" />
+   <wvobject fp_name="/cpu_tb/cpu/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/cpu/clock" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/cpu/dp/dtpc" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dtpc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dtpc[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/cpu/i_address" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">i_address[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i_address[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/cpu/dp/pc" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">pc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/cpu/dp/incpc" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">incpc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">incpc[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/cpu/instruction" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">instruction[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instruction[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/cpu/uins.i" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">.i</obj_property>
+      <obj_property name="ObjectShortName">uins.i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/cpu/d_address" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">d_address[31:0]</obj_property>
+      <obj_property name="ObjectShortName">d_address[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/cpu/data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/cpu/ce" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ce</obj_property>
+      <obj_property name="ObjectShortName">ce</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/cpu/rw" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rw</obj_property>
+      <obj_property name="ObjectShortName">rw</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/cpu/bw" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">bw</obj_property>
+      <obj_property name="ObjectShortName">bw</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/cpu/dp/REGS/reg[1]" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">[1]</obj_property>
+      <obj_property name="ObjectShortName">reg[1]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="label">$at</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/cpu/dp/REGS/reg[8]" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">[8]</obj_property>
+      <obj_property name="ObjectShortName">reg[8]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="label">$t0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/cpu/dp/REGS/reg[9]" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">[9]</obj_property>
+      <obj_property name="ObjectShortName">reg[9]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="label">$t1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/cpu/dp/REGS/reg[10]" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">[10]</obj_property>
+      <obj_property name="ObjectShortName">reg[10]</obj_property>
+      <obj_property name="label">$t2</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/cpu/dp/REGS/reg[11]" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">[11]</obj_property>
+      <obj_property name="ObjectShortName">reg[11]</obj_property>
+      <obj_property name="label">$t3</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/cpu/dp/REGS/reg[12]" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">[12]</obj_property>
+      <obj_property name="ObjectShortName">reg[12]</obj_property>
+      <obj_property name="label">$t4</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/cpu/dp/REGS/reg[13]" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">[13]</obj_property>
+      <obj_property name="ObjectShortName">reg[13]</obj_property>
+      <obj_property name="label">$t5</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/cpu/dp/REGS/reg[14]" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">[14]</obj_property>
+      <obj_property name="ObjectShortName">reg[14]</obj_property>
+      <obj_property name="label">$t6</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/cpu/dp/REGS/reg[15]" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">[15]</obj_property>
+      <obj_property name="ObjectShortName">reg[15]</obj_property>
+      <obj_property name="label">$t7</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/cpu/dp/REGS/reg[24]" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">[24]</obj_property>
+      <obj_property name="ObjectShortName">reg[24]</obj_property>
+      <obj_property name="label">$t8</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/cpu/dp/REGS/reg[25]" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">[25]</obj_property>
+      <obj_property name="ObjectShortName">reg[25]</obj_property>
+      <obj_property name="label">$t9</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/cpu/dp/REGS/reg[16]" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">[16]</obj_property>
+      <obj_property name="ObjectShortName">reg[16]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="label">$s0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/cpu/dp/REGS/reg[17]" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">[17]</obj_property>
+      <obj_property name="ObjectShortName">reg[17]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="label">$s1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/cpu/dp/REGS/reg[18]" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">[18]</obj_property>
+      <obj_property name="ObjectShortName">reg[18]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="label">$s2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/cpu/dp/REGS/reg[19]" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">[19]</obj_property>
+      <obj_property name="ObjectShortName">reg[19]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="label">$s3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/cpu/dp/REGS/reg[29]" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">[29]</obj_property>
+      <obj_property name="ObjectShortName">reg[29]</obj_property>
+      <obj_property name="label">$sp</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/cpu/dp/REGS/reg[31]" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">[31]</obj_property>
+      <obj_property name="ObjectShortName">reg[31]</obj_property>
+      <obj_property name="label">$ra</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider69" type="divider">
+      <obj_property name="label">Conflict Signals</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/cpu/dp/r1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">r1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">r1[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/cpu/dp/r2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">r2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">r2[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/cpu/dp/result" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">result[31:0]</obj_property>
+      <obj_property name="ObjectShortName">result[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/cpu/dp/ralu" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ralu[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ralu[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider119" type="divider">
+      <obj_property name="label">Pipeline Registers</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/cpu/dp/conflict" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">conflict</obj_property>
+      <obj_property name="ObjectShortName">conflict</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider66" type="divider">
+      <obj_property name="label">BIDI</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/cpu/dp/bidi.npc" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">.npc</obj_property>
+      <obj_property name="ObjectShortName">bidi.npc</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/cpu/dp/bidi.pc" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">.pc</obj_property>
+      <obj_property name="ObjectShortName">bidi.pc</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/cpu/dp/bidi.ir" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">.ir</obj_property>
+      <obj_property name="ObjectShortName">bidi.ir</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider61" type="divider">
+      <obj_property name="label">DIEX</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/cpu/dp/diex.uins.i" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">.i</obj_property>
+      <obj_property name="ObjectShortName">diex.uins.i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/cpu/dp/diex.ra" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">.ra</obj_property>
+      <obj_property name="ObjectShortName">diex.ra</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/cpu/dp/diex.rb" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">.rb</obj_property>
+      <obj_property name="ObjectShortName">diex.rb</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/cpu/dp/diex.imed" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">.imed</obj_property>
+      <obj_property name="ObjectShortName">diex.imed</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/cpu/dp/diex.rt" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">.rt</obj_property>
+      <obj_property name="ObjectShortName">diex.rt</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/cpu/dp/diex.pc" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">.pc</obj_property>
+      <obj_property name="ObjectShortName">diex.pc</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/cpu/dp/diex.uins.inst_branch" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">.inst_branch</obj_property>
+      <obj_property name="ObjectShortName">diex.uins.inst_branch</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider62" type="divider">
+      <obj_property name="label">EXMEM</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/cpu/dp/exmem.uins.i" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">.i</obj_property>
+      <obj_property name="ObjectShortName">exmem.uins.i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/cpu/dp/salta" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">salta</obj_property>
+      <obj_property name="ObjectShortName">salta</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/cpu/dp/exmem.ralu" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">.ralu</obj_property>
+      <obj_property name="ObjectShortName">exmem.ralu</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/cpu/dp/exmem.rb" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">.rb</obj_property>
+      <obj_property name="ObjectShortName">exmem.rb</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider63" type="divider">
+      <obj_property name="label">MEMER</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/cpu/dp/memer.uins.i" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">.i</obj_property>
+      <obj_property name="ObjectShortName">memer.uins.i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/cpu/dp/memer.mdr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">.mdr</obj_property>
+      <obj_property name="ObjectShortName">memer.mdr</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/cpu/dp/memer.add" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">.add</obj_property>
+      <obj_property name="ObjectShortName">memer.add</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/cpu/dp/memer.ralu" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">.ralu</obj_property>
+      <obj_property name="ObjectShortName">memer.ralu</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider52" type="divider">
+      <obj_property name="label">Dynamic Decision Signals</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/cpu/dp/taken_branch" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">taken_branch</obj_property>
+      <obj_property name="ObjectShortName">taken_branch</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/cpu/dp/id_tb" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">id_tb</obj_property>
+      <obj_property name="ObjectShortName">id_tb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/cpu/dp/wrongly_taken_branch" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">wrongly_taken_branch</obj_property>
+      <obj_property name="ObjectShortName">wrongly_taken_branch</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/cpu/dp/id_wtb" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">id_wtb</obj_property>
+      <obj_property name="ObjectShortName">id_wtb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/cpu/dp/branch_buffer[0]" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">[0]</obj_property>
+      <obj_property name="ObjectShortName">branch_buffer[0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <wvobject fp_name="/cpu_tb/cpu/dp/branch_buffer[0].vb" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">.vb</obj_property>
+         <obj_property name="ObjectShortName">branch_buffer[0].vb</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_tb/cpu/dp/branch_buffer[0].fsm" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">.fsm</obj_property>
+         <obj_property name="ObjectShortName">branch_buffer[0].fsm</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_tb/cpu/dp/branch_buffer[0].address" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">.address</obj_property>
+         <obj_property name="ObjectShortName">branch_buffer[0].address</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_tb/cpu/dp/branch_buffer[0].b_address" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">.b_address</obj_property>
+         <obj_property name="ObjectShortName">branch_buffer[0].b_address</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/cpu/dp/branch_buffer[1]" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">[1]</obj_property>
+      <obj_property name="ObjectShortName">branch_buffer[1]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <wvobject fp_name="/cpu_tb/cpu/dp/branch_buffer[1].vb" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">.vb</obj_property>
+         <obj_property name="ObjectShortName">branch_buffer[1].vb</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_tb/cpu/dp/branch_buffer[1].fsm" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">.fsm</obj_property>
+         <obj_property name="ObjectShortName">branch_buffer[1].fsm</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_tb/cpu/dp/branch_buffer[1].address" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">.address</obj_property>
+         <obj_property name="ObjectShortName">branch_buffer[1].address</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_tb/cpu/dp/branch_buffer[1].b_address" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">.b_address</obj_property>
+         <obj_property name="ObjectShortName">branch_buffer[1].b_address</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/cpu/dp/branch_buffer[2]" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">[2]</obj_property>
+      <obj_property name="ObjectShortName">branch_buffer[2]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <wvobject fp_name="/cpu_tb/cpu/dp/branch_buffer[2].vb" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">.vb</obj_property>
+         <obj_property name="ObjectShortName">branch_buffer[2].vb</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_tb/cpu/dp/branch_buffer[2].fsm" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">.fsm</obj_property>
+         <obj_property name="ObjectShortName">branch_buffer[2].fsm</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_tb/cpu/dp/branch_buffer[2].address" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">.address</obj_property>
+         <obj_property name="ObjectShortName">branch_buffer[2].address</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_tb/cpu/dp/branch_buffer[2].b_address" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">.b_address</obj_property>
+         <obj_property name="ObjectShortName">branch_buffer[2].b_address</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/cpu/dp/branch_buffer[3]" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">[3]</obj_property>
+      <obj_property name="ObjectShortName">branch_buffer[3]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/cpu/dp/branch_buffer[4]" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">[4]</obj_property>
+      <obj_property name="ObjectShortName">branch_buffer[4]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/cpu/dp/branch_buffer[5]" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">[5]</obj_property>
+      <obj_property name="ObjectShortName">branch_buffer[5]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/cpu/dp/branch_buffer[6]" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">[6]</obj_property>
+      <obj_property name="ObjectShortName">branch_buffer[6]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/cpu/dp/branch_buffer[7]" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">[7]</obj_property>
+      <obj_property name="ObjectShortName">branch_buffer[7]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/cpu/dp/branch_buffer[8]" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">[8]</obj_property>
+      <obj_property name="ObjectShortName">branch_buffer[8]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+</wave_config>
